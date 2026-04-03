@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NIKE KINETIC — Precision Performance</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;600;800&amp;family=Inter:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "error-container": "#f95630",
+                      "surface": "#f8f6f0",
+                      "primary-fixed-dim": "#dddddd",
+                      "surface-tint": "#5b5b5b",
+                      "on-secondary-container": "#4b5700",
+                      "secondary-fixed": "#d2f000",
+                      "on-error": "#ffefec",
+                      "surface-dim": "#d5d5cd",
+                      "on-error-container": "#520c00",
+                      "error-dim": "#b92902",
+                      "outline": "#777772",
+                      "on-tertiary-container": "#5c4b00",
+                      "on-primary-fixed-variant": "#616161",
+                      "on-surface": "#2e2f2b",
+                      "on-primary-fixed": "#444444",
+                      "primary-fixed": "#ebebeb",
+                      "on-background": "#2e2f2b",
+                      "surface-container-lowest": "#ffffff",
+                      "on-tertiary": "#fff2cf",
+                      "on-tertiary-fixed": "#463900",
+                      "secondary-container": "#d2f000",
+                      "background": "#f8f6f0",
+                      "outline-variant": "#aeada8",
+                      "tertiary": "#6d5a00",
+                      "surface-container-high": "#e4e3dc",
+                      "secondary-fixed-dim": "#c5e200",
+                      "primary": "#5b5b5b",
+                      "tertiary-dim": "#5f4e00",
+                      "tertiary-container": "#fdd73e",
+                      "surface-container-low": "#f2f1ea",
+                      "surface-variant": "#deddd6",
+                      "on-secondary-fixed": "#3a4400",
+                      "tertiary-fixed-dim": "#eec930",
+                      "primary-dim": "#4f4f4f",
+                      "error": "#b02500",
+                      "surface-container-highest": "#deddd6",
+                      "secondary": "#546200",
+                      "on-secondary-fixed-variant": "#546200",
+                      "on-primary": "#f3f3f3",
+                      "on-secondary": "#e6ff62",
+                      "tertiary-fixed": "#fdd73e",
+                      "primary-container": "#ebebeb",
+                      "secondary-dim": "#495500",
+                      "inverse-surface": "#0e0f0b",
+                      "inverse-on-surface": "#9e9d98",
+                      "on-surface-variant": "#5c5c57",
+                      "inverse-primary": "#ffffff",
+                      "on-tertiary-fixed-variant": "#675400",
+                      "surface-container": "#eae8e1",
+                      "surface-bright": "#f8f6f0",
+                      "on-primary-container": "#575757"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Plus Jakarta Sans"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+        .kinetic-text-stroke {
+            -webkit-text-stroke: 1px rgba(46, 47, 43, 0.2);
+            color: transparent;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        .hero-gradient {
+            background: radial-gradient(circle at 50% 50%, #fcfbf8 0%, #f2f1ea 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body overflow-x-hidden">
+<!-- Top Navigation Anchor -->
+<nav class="fixed top-0 w-full z-[100] bg-stone-50/80 dark:bg-zinc-950/80 backdrop-blur-xl flex justify-between items-center px-8 py-6 w-full max-w-[1920px] mx-auto">
+<div class="text-2xl font-black tracking-tighter text-zinc-900 dark:text-stone-50">NIKE KINETIC</div>
+<div class="hidden md:flex gap-12 items-center">
+<a class="text-lime-600 dark:text-lime-400 font-bold font-['Plus_Jakarta_Sans'] tracking-tight text-sm transition-colors duration-300 ease-in-out" href="#">Collections</a>
+<a class="text-zinc-500 dark:text-stone-400 hover:text-zinc-900 dark:hover:text-stone-100 font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors duration-300 ease-in-out" href="#">Innovations</a>
+<a class="text-zinc-500 dark:text-stone-400 hover:text-zinc-900 dark:hover:text-stone-100 font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors duration-300 ease-in-out" href="#">Athletes</a>
+<a class="text-zinc-500 dark:text-stone-400 hover:text-zinc-900 dark:hover:text-stone-100 font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors duration-300 ease-in-out" href="#">Stories</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-zinc-900 dark:text-stone-50 transition-all active:opacity-70">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+</button>
+<button class="text-zinc-900 dark:text-stone-50 transition-all active:opacity-70">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+</button>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main>
+<!-- Hero Section: Cinematic Showcase -->
+<section class="relative h-screen w-full flex items-center justify-center overflow-hidden hero-gradient">
+<div class="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
+<h1 class="text-[20vw] font-black tracking-tighter uppercase leading-none opacity-5 kinetic-text-stroke select-none">
+                    KINETIC
+                </h1>
+</div>
+<div class="container mx-auto px-8 grid grid-cols-1 lg:grid-cols-12 items-center gap-12 relative z-10">
+<div class="lg:col-span-5 flex flex-col items-start gap-6">
+<span class="label-md text-secondary tracking-[0.2em] uppercase font-semibold">Limited Series / 001</span>
+<h2 class="text-7xl lg:text-9xl font-headline font-extrabold tracking-tighter leading-[0.85] text-on-surface">
+                        JUST <br/> DO IT.
+                    </h2>
+<div class="flex flex-col gap-2 mt-4">
+<h3 class="text-2xl font-headline font-bold text-on-surface">AIR MAX KINETIC '26</h3>
+<p class="text-on-surface-variant font-medium text-lg">$249.00 USD</p>
+</div>
+<button class="mt-8 px-12 py-5 bg-on-surface text-on-primary font-headline font-bold tracking-widest text-sm uppercase transition-all hover:bg-secondary-fixed hover:text-on-secondary-fixed rounded-lg">
+                        Buy Now
+                    </button>
+</div>
+<div class="lg:col-span-7 relative flex justify-center items-center h-[600px]">
+<!-- Placeholder for 3D Asset (The "Kinetic Gallery" Anchor) -->
+<div class="relative w-full h-full flex items-center justify-center group cursor-grab active:cursor-grabbing">
+<div class="absolute inset-0 bg-radial from-white/20 to-transparent blur-3xl opacity-50"></div>
+<img alt="Nike Air Max Kinetic Hero" class="w-full h-auto object-contain max-w-[800px] z-10 transition-transform duration-700 hover:scale-105" data-alt="ultra-high-definition studio shot of a neon red nike sneaker floating against a minimalist bone colored background with cinematic soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYLBNO8Xtzv065hC3Fgk6HAWjQ-3VCAfhn3w9GeiJ7FatVFx2vNno-S_SlChvDhInes6GppkRBh0dWSOJslAuJcRdw4VeCk56q_NlJwuAI-C6PNyTu8WoIpZ9HHh0WgGkeFu6_mxwky7vxEFKfu7xokXS1x4WEM5MmhUQ660stiRzkbNVATapSL6n93FZ8TQCKA670MkfX2r49BCYqeUczcJVPYvfeFd8fL0SSah8A0YwUt0XOkL9yk8t5xUJd_1ohD1X3FoO91Tk"/>
+<!-- Floating Glass Info Card -->
+<div class="absolute bottom-10 right-0 bg-surface-container-lowest/70 backdrop-blur-xl p-6 rounded-xl border border-outline-variant/10 shadow-xl max-w-xs z-20">
+<p class="text-xs font-bold uppercase tracking-widest text-secondary mb-2">Technical Spec</p>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                                Engineered with 360-degree kinetic pressure mapping for ultimate energy return.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Scroll Indicator -->
+<div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50">
+<span class="text-[10px] uppercase tracking-[0.3em] font-bold">Explore Motion</span>
+<div class="w-[1px] h-12 bg-on-surface-variant/30 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-1/2 bg-on-surface animate-bounce"></div>
+</div>
+</div>
+</section>
+<!-- Interactive Gallery: Horizontal Carousel -->
+<section class="py-24 bg-surface-container-low overflow-hidden">
+<div class="container mx-auto px-8 mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8">
+<div class="max-w-2xl">
+<h2 class="text-5xl font-headline font-extrabold tracking-tighter mb-4 text-on-surface">The Kinetic Lineup</h2>
+<p class="text-on-surface-variant text-lg">Select a silhouette to update the gallery view. Each model is tuned for specific metabolic rhythms.</p>
+</div>
+<div class="flex gap-4">
+<button class="p-4 rounded-full border border-outline-variant/30 hover:bg-on-surface hover:text-on-primary transition-all">
+<span class="material-symbols-outlined">west</span>
+</button>
+<button class="p-4 rounded-full border border-outline-variant/30 hover:bg-on-surface hover:text-on-primary transition-all">
+<span class="material-symbols-outlined">east</span>
+</button>
+</div>
+</div>
+<div class="flex gap-8 px-8 overflow-x-auto hide-scrollbar snap-x snap-mandatory pb-12">
+<!-- Shoe Card 1 -->
+<div class="snap-center min-w-[320px] md:min-w-[450px] group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden transition-all duration-500 group-hover:-translate-y-4 shadow-sm hover:shadow-2xl h-[500px] flex flex-col">
+<div class="flex-grow p-12 flex items-center justify-center relative overflow-hidden">
+<div class="absolute inset-0 bg-surface-container transition-opacity duration-500 opacity-0 group-hover:opacity-10"></div>
+<img alt="Nike Zoom Kinetic" class="w-full h-auto object-contain transition-transform duration-700 group-hover:rotate-[-15deg] group-hover:scale-125" data-alt="profile shot of a vibrant lime green nike running shoe against a neutral studio background with high contrast shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHpt7pZ48YTiFcGMk5SHhQ31OmrRDV2gSGDm1E1H5PU13XsmwmN7nydk47rdAHBY6mzzyFjJBP31dyYSLg0VNatc8PTV6XJXpdfwjaC9z-DxSOkCgrtxj4hDAgqdpgLyZ4RktzVz0_Nhoi2683pzJlM6eFgMOAsTTRy8MH6VtAPMEEtW0N64_YVHUWgDNSrmte8CZfVJzmhH1XqAzSaumlu9L2KyitwNIH9KXeJwoOPUnCaa7f9bJaokhKzzwJ_MITM7XaIYiF3f8"/>
+</div>
+<div class="p-8 bg-surface-container-lowest flex justify-between items-end border-t border-surface-container">
+<div>
+<span class="text-[10px] font-bold text-secondary-fixed-dim bg-on-secondary-fixed px-2 py-1 rounded mb-2 inline-block">PERFORMANCE</span>
+<h4 class="text-xl font-headline font-bold">ZOOM KINETIC X</h4>
+<p class="text-on-surface-variant">$195.00</p>
+</div>
+<div class="flex items-center gap-1">
+<span class="font-bold text-sm">4.9</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Shoe Card 2 -->
+<div class="snap-center min-w-[320px] md:min-w-[450px] group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden transition-all duration-500 group-hover:-translate-y-4 shadow-sm hover:shadow-2xl h-[500px] flex flex-col">
+<div class="flex-grow p-12 flex items-center justify-center relative overflow-hidden">
+<img alt="Nike React Infinity" class="w-full h-auto object-contain transition-transform duration-700 group-hover:rotate-[-10deg] group-hover:scale-125" data-alt="stunning white and lavender nike sneaker floating in a clean minimal space with soft aesthetic lighting and pastel tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_gM0zEdERrsmAWbkoLA02Gm2gxb-mey0fRXAF3jbJAjHC_8N5WyroRIwqfJNVGpiObt_52im6t4wohg4n6iJX-EFnFD_4vcgBycrex_GgW3bkVjuUWqAQTdN3u6z918_zHjs8FzyY8BAJN4NtRxMPdtGeOlWuN5Rto2ncy-9Y27oOl5eFlIEs95hYS6ObZPx_dLlXHXVEH0GzI2JhzROh6uj-5oSmAe1v8Q4oA4xnlNk5hcPAjXu9Ttq2fAUHN2d_kKa9rvGQfnM"/>
+</div>
+<div class="p-8 bg-surface-container-lowest flex justify-between items-end border-t border-surface-container">
+<div>
+<span class="text-[10px] font-bold text-secondary-fixed-dim bg-on-secondary-fixed px-2 py-1 rounded mb-2 inline-block">LIFESTYLE</span>
+<h4 class="text-xl font-headline font-bold">AIR KINETIC V2</h4>
+<p class="text-on-surface-variant">$210.00</p>
+</div>
+<div class="flex items-center gap-1">
+<span class="font-bold text-sm">4.8</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Shoe Card 3 -->
+<div class="snap-center min-w-[320px] md:min-w-[450px] group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden transition-all duration-500 group-hover:-translate-y-4 shadow-sm hover:shadow-2xl h-[500px] flex flex-col">
+<div class="flex-grow p-12 flex items-center justify-center relative overflow-hidden">
+<img alt="Nike Metcon Kinetic" class="w-full h-auto object-contain transition-transform duration-700 group-hover:rotate-[-5deg] group-hover:scale-125" data-alt="industrial style shot of a metallic grey nike sneaker on a textured stone surface with dramatic side lighting and sharp details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTAbWV8mw-5gwzqh9lkX-LP4qCF9ejq_u1VCVSruBKbJO3RsFUpvEZ2T6rvRtkxXQ4C8RTx3OaCM58OlcnG7fy2EdPZrqhEIyMKQL8NF4vlXi0XQ00k3sw4imN1Gmh8U5xYASqESRBXAuRnqfYTCD37ysBJvMf8NWI3gxcBptCFy-pbT8--IkFa_1CQTpdcneKH4ZPOcaEWSnWGm0fMa8vx2t_vLWUFEvpCgWRvA30eQxhFIcci5A-sLVq_4VVv7VdkYNwGxeISsQ"/>
+</div>
+<div class="p-8 bg-surface-container-lowest flex justify-between items-end border-t border-surface-container">
+<div>
+<span class="text-[10px] font-bold text-secondary-fixed-dim bg-on-secondary-fixed px-2 py-1 rounded mb-2 inline-block">TRAINING</span>
+<h4 class="text-xl font-headline font-bold">METCON KINETIC</h4>
+<p class="text-on-surface-variant">$160.00</p>
+</div>
+<div class="flex items-center gap-1">
+<span class="font-bold text-sm">4.9</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Shoe Card 4 -->
+<div class="snap-center min-w-[320px] md:min-w-[450px] group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden transition-all duration-500 group-hover:-translate-y-4 shadow-sm hover:shadow-2xl h-[500px] flex flex-col">
+<div class="flex-grow p-12 flex items-center justify-center relative overflow-hidden">
+<img alt="Nike Air Force K" class="w-full h-auto object-contain transition-transform duration-700 group-hover:rotate-[-20deg] group-hover:scale-125" data-alt="classic blue nike high top sneaker with a modern twist floating in a bright airy studio with sharp focused lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVTwSElS9ZMX-2EQEUpAUzyG7FayYHexeXDMjvZ26b6Mc6wk7VzZxvo5SIcAp4itn4wqU6Bway3ERWOnLQJ-RwTUFv9laqBt7tX9I27EGQoxXyBlVjf2QvXIbmGLHH1nYigMQP17ycjWiKov19-UDcd-oXue3wV4WeovTtZCNpq0H0per25n5Xmh0Yrm8K5Nq1xeeWbhrK49paShqlYi7FjJkRqXGO1HEOKQ0QCuV4-izHx7FJSB_qLiz1j7F-55OWgzpY1od2Wf0"/>
+</div>
+<div class="p-8 bg-surface-container-lowest flex justify-between items-end border-t border-surface-container">
+<div>
+<span class="text-[10px] font-bold text-secondary-fixed-dim bg-on-secondary-fixed px-2 py-1 rounded mb-2 inline-block">HERITAGE</span>
+<h4 class="text-xl font-headline font-bold">FORCE KINETIC '82</h4>
+<p class="text-on-surface-variant">$140.00</p>
+</div>
+<div class="flex items-center gap-1">
+<span class="font-bold text-sm">5.0</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Premium Detailing: Bento Grid -->
+<section class="py-32 px-8 bg-surface">
+<div class="container mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 h-auto md:h-[800px]">
+<!-- Main Feature -->
+<div class="md:col-span-7 bg-surface-container-highest rounded-xl relative overflow-hidden group p-12 flex flex-col justify-end">
+<img alt="Material texture" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-110" data-alt="extreme close up of high-tech mesh material on a premium sneaker showing intricate weave patterns and reflective fibers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgzZlzX1W7HKDERlfKPANk-EoXr4kXxZLM19XAeMAWv-CvK6NujcIcUXzWpYSnepsWg_A9zQG3I_QNTXUipcROY0jzbjXFOqUcIc5FkeFZCXNKFPWaTTmrnZshZcXGsxS1uI0EAHv1skBmovMiO1-QQOle0M5r6ZZ8arO-IXTw39dGjRE03bxqc_3YNmO-7OWsTc7Dq49MtLKsghRLx-JSr-WxpTj2KDre6oLK0x3W1ucDLUPU1J9zUNxJ9a7ZLZgCUSXh-11vdBA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 to-transparent"></div>
+<div class="relative z-10">
+<h3 class="text-4xl font-headline font-extrabold text-surface mb-4">Precision Weave Mesh</h3>
+<p class="text-surface-dim max-w-md">Our proprietary textile technology allows for multi-directional stretch without losing structural integrity. It's breathing, evolving, moving.</p>
+</div>
+</div>
+<!-- Side Features -->
+<div class="md:col-span-5 grid grid-rows-2 gap-8">
+<div class="bg-secondary-container rounded-xl p-12 flex flex-col justify-between group">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-4xl text-on-secondary-container">bolt</span>
+<span class="text-[10px] font-bold tracking-widest text-on-secondary-container uppercase">Propulsion Lab</span>
+</div>
+<div>
+<h4 class="text-2xl font-headline font-bold text-on-secondary-container mb-2">Energy Return</h4>
+<p class="text-on-secondary-container/70">+28% more bounce compared to standard foam inserts.</p>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-xl p-12 flex flex-col justify-between border border-outline-variant/20 overflow-hidden relative group">
+<div class="relative z-10">
+<h4 class="text-2xl font-headline font-bold mb-2">Sustainable Core</h4>
+<p class="text-on-surface-variant">85% recycled ocean plastic transformed into luxury performance.</p>
+</div>
+<div class="absolute -right-10 -bottom-10 w-48 h-48 bg-secondary-fixed/20 rounded-full blur-3xl transition-all duration-700 group-hover:scale-150"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 text-center bg-inverse-surface text-surface">
+<div class="container mx-auto px-8">
+<h2 class="text-6xl md:text-8xl font-headline font-black tracking-tighter mb-8 leading-tight">THE FUTURE <br/> IS UNWRITTEN.</h2>
+<button class="bg-secondary-fixed text-on-secondary-fixed px-12 py-5 font-headline font-bold rounded-lg hover:bg-surface hover:text-on-surface transition-all uppercase tracking-widest">
+                    Join the Collective
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 px-8 mt-0 bg-stone-100 dark:bg-zinc-900">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 w-full max-w-[1920px] mx-auto">
+<div class="font-['Plus_Jakarta_Sans'] text-xs uppercase tracking-widest text-zinc-900 dark:text-stone-50">
+                © 2026 – DESIGNED BY OMKAR
+            </div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-['Plus_Jakarta_Sans'] text-xs uppercase tracking-widest text-zinc-400 dark:text-stone-500 hover:text-zinc-900 dark:hover:text-stone-100 transition-all Active: underline decoration-2 underline-offset-4" href="#">Privacy Policy</a>
+<a class="font-['Plus_Jakarta_Sans'] text-xs uppercase tracking-widest text-zinc-400 dark:text-stone-500 hover:text-zinc-900 dark:hover:text-stone-100 transition-all Active: underline decoration-2 underline-offset-4" href="#">Terms of Use</a>
+<a class="font-['Plus_Jakarta_Sans'] text-xs uppercase tracking-widest text-zinc-400 dark:text-stone-500 hover:text-zinc-900 dark:hover:text-stone-100 transition-all Active: underline decoration-2 underline-offset-4" href="#">Cookie Settings</a>
+<a class="font-['Plus_Jakarta_Sans'] text-xs uppercase tracking-widest text-zinc-400 dark:text-stone-500 hover:text-zinc-900 dark:hover:text-stone-100 transition-all Active: underline decoration-2 underline-offset-4" href="#">Sustainability</a>
+</div>
+</div>
+</footer>
+<!-- Sticky Floating Action -->
+<div class="fixed bottom-8 right-8 z-[90] md:block hidden">
+<button class="bg-on-surface text-on-primary w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all group">
+<span class="material-symbols-outlined text-3xl group-hover:rotate-12 transition-transform">chat_bubble</span>
+</button>
+</div>
+</body></html>
